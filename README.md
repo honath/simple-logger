@@ -5,14 +5,21 @@ Simple "logger" class to be used in any project. Lightweight, straightforward! N
 ## Install
 First, navigate to your project directory.
 
-To install, type:
+To install, type:  
 `npm i honath-simple-logger`
 
 ## Usage
 
-### Declaration
+### Import
+```
+const Logger = require("honath-simple-logger");
+```
 
-`const logger = new Logger("info");`
+### Instantiation
+
+```
+const logger = new Logger("info");
+```
 
 ### Invocation
 
@@ -60,6 +67,7 @@ This is a second note.
 
 ### Tips and Warnings
 
+- You **do not** need to name it "logger", that is just what I chose to use.
 - Invalid Log Levels will send an error message to the console as Magenta text
 - Log level must be a string. It will not throw an error immediately, but will treat anything other than a string as an invalid log level
 - Logger methods destructure the object sent to them, as shown in the example above
