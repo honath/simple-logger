@@ -16,5 +16,13 @@
     "console"
   ],
   "author": "honath",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honath/simple-logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/honath/simple-logger/issues"
+  },
+  "homepage": "https://github.com/honath/simple-logger#readme"
 }
