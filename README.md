@@ -2,6 +2,12 @@
 
 Simple "logger" class to be used in any project. Lightweight, straightforward! No configuration of IDs or installing other libraries to simplify this - it simply logs to the console, and is color coded!
 
+## Install
+First, navigate to your project directory.
+
+To install, type:
+`npm i honath-simple-logger`
+
 ## Usage
 
 ### Declaration
