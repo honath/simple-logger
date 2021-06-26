@@ -31,6 +31,15 @@ Add additional string messages here!
 This is a second note.
 ```
 
+### Methods
+
+- `logger.trace()`
+- `logger.debug()`
+- `logger.info()`
+- `logger.warn()`
+- `logger.error()`
+- `logger.fatal()`
+
 ## Additional Information
 
 ### Valid Log Levels and their Colors
