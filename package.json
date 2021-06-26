@@ -1,6 +1,6 @@
 {
   "name": "honath-simple-logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A quick and easy, no fuss logger with zero additional dependencies.",
   "main": "logger.js",
   "scripts": {
